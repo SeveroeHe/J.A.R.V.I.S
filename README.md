@@ -1,3 +1,3 @@
 # J.A.R.V.I.S
 
-###conversational software
+conversational software for a facebook messenger bot.
