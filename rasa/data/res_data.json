@@ -1,0 +1,208 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey",
+        "entities": []
+      },
+      {
+        "intent": "greet",
+        "text": "hello",
+        "entities": []
+      },
+      {
+        "intent": "goodbye",
+        "text": "cee you later",
+        "entities": []
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night",
+        "entities": []
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon",
+        "entities": []
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye",
+        "entities": []
+      },
+      {
+        "text": "I want to know the weather in san francisco",
+        "intent": "request_weather",
+        "entities":[
+          { 
+            "start": 30,
+            "end": 43,
+            "value":"san francisco",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "inform me the weather in san francisco",
+        "intent": "request_weather",
+        "entities":[
+          { 
+            "start": 25,
+            "end": 38,
+            "value":"san francisco",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "please tell me the weather in pittsburgh",
+        "intent": "request_weather",
+        "entities":[
+          { 
+            "start": 30,
+            "end": 40,
+            "value":"san francisco",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Do you know what is the weather today in san francisco?",
+        "intent": "request_weather",
+        "entities":[
+          { 
+            "start": 41,
+            "end": 54,
+            "value":"san francisco",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "what is the time now?",
+        "intent": "request_time",
+        "entities": []
+      },
+      {
+        "text": "time",
+        "intent": "request_time",
+        "entities": []
+      },
+      {
+        "text": "report time",
+        "intent": "request_time",
+        "entities": []
+      },
+      {
+        "text": "what time is it?",
+        "intent": "request_time",
+        "entities": []
+      },
+
+
+
+
+
+      {
+        "text": "weather in New York",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "New York",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in Oakland",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Oakland",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in Shanghai",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Shanghai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in Los Angeles",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Los Angeles",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in Los Santos",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "Los Santos",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in HongKong",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "HongKong",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in pittsburgh",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "pittsburgh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "weather in San Francisco",
+        "intent": "request_weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "San Francisco",
+            "entity": "location"
+          }
+        ]
+      }
+      
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

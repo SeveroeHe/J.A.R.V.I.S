@@ -1,0 +1,23 @@
+*.log
+*.pot
+*.pyc
+
+# Editor backup files
+*~
+*#
+*.swp
+*.pem
+
+# Mac OS data store file
+.DS_Store
+
+# Django's SQL Lite Database File
+db.sqlite3
+
+# temporary python file
+__pycache
+
+# credentials
+*.ini
+*.pem
+api_supports/*.ini

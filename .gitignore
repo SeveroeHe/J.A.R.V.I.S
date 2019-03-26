@@ -1,0 +1,16 @@
+*.log
+*.pot
+*.pyc
+
+# Editor backup files
+*~
+*#
+*.swp
+
+# Mac OS data store file
+.DS_Store
+
+
+# persinal config file
+config.ini
+Blueprint
